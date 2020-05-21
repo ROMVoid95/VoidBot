@@ -1,0 +1,32 @@
+# Log file
+*.log
+
+# IDE settings
+.classpath
+.project
+.vscode
+out/*
+target/*
+bin/*
+.settings/*
+
+# theia settings
+.theia/
+**/.settings/org.eclipse.buildship.core.prefs
+
+# IntelliJ files
+**/*.iml
+**/.idea
+**/.gradle
+*.ipr
+*.iws
+**/out/
+
+# gradle
+**/build/
+!gradle/wrapper/*.jar
+
+# Ignore Mac DS_Store files
+**/.DS_Store
+res/button_bot-invite.png
+config.json
