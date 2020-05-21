@@ -9,6 +9,11 @@ out/*
 target/*
 bin/*
 .settings/*
+build/classes/*
+build/distributions/*
+build/generated/*
+build/tmp/*
+
 
 # theia settings
 .theia/
@@ -23,7 +28,6 @@ bin/*
 **/out/
 
 # gradle
-**/build/
 !gradle/wrapper/*.jar
 
 # Ignore Mac DS_Store files
